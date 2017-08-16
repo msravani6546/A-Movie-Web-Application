@@ -1,2 +1,4 @@
 # A-Movie-Web-Application
-A web application that displays information about movies
+A web application that displays information about movies.This application was developed using plain JavaScript and Ajax on XAMPP server.
+It uses the Web Service REST API of the movie DB TMDb.An API access key is obtained from Signing up for a TMDb account. The access key will allows to send web service requests to TMDb.
+The application has a text section where one can type a movie title (eg, The Matrix),a search button, one section to display the search results, and one section to display information about a movie. The search results is an itemized clickable list of movie titles along with their years they were released. Upon clicking on one of these movie titles,it displays the information about the movie: the poster of the movie as an image, the movie title, its genres (separated by comma), the movie overview (summary), and the names of the top five cast members
