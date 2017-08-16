@@ -1,0 +1,39 @@
+<!--DOCTYPE html-->
+<html lang="en">
+  <head>
+    <title>Display Movie Information</title>
+    <meta charset="utf-8"/>
+	<style>
+	td {
+	text-align: justify;
+	}
+	</style>
+    <script type="application/javascript" src="movies.js"></script>
+  </head>
+  <body onload="initialize();">
+    <table border="1" width="1200" height="750">
+	<tr width="1000" height="2" >
+	<td colspan="2">
+    <form>
+       <label>Movie title: <input type="text" id="form-input"/></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form>
+	</td>
+	</tr>
+	<tr>
+    <td width="500">
+	<p id="demo"></p>
+	<!--<div id="output">&nbsp;</div>-->
+	</td>
+	<td width="500">
+	<p id="d"></p>
+	<img id="poster"/>
+	<h2 id="title"></h2>
+	<p id="genres"></p>
+	<p id="summary"></p>
+	<p id="cast"></p>
+	</td>
+	
+	</tr>
+  </body>
+</html>
